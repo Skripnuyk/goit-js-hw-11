@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 10</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
+  
     <form class="search-form" id="search-form">
   <input
     type="text"
@@ -16,6 +18,15 @@
   />
   <button type="submit">Search</button>
 </form>
+
+<div class="container">
+      <div class="gallery"></div>
+      <button type="button" class="load-more is-hidden">Load more</button>
+      <p class="end-collection-text is-hidden">
+        We're sorry, but you've reached the end of search results.
+      </p>
+    </div>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
